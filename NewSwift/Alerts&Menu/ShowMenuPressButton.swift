@@ -21,7 +21,6 @@ struct ShowMenuPressButton: View {
             justDoIt()
         }
     }
-    
     func justDoIt() {
         print("Button was tapped")
     }

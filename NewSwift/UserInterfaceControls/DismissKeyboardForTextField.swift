@@ -1,33 +1,27 @@
 //
-//  DismissKeyboard.swift
+//  DismissKeyboardForTextField.swift
 //  NewSwift
 //
-//  Created by Massa Antonio on 09/06/21.
+//  Created by Massa Antonio on 02/07/21.
 //
 
-//MARK: - How to dismiss the keyboard for a TextField
 import SwiftUI
 
-struct DismissKeyboard: View {
+struct DismissKeyboardForTextField: View {
     enum Field {
-        case firstName, lastName, emailAddress
+        case firstName
+        case lastName
+        case emailAddress
     }
+    
     @State private var firstName = ""
     @State private var lastName = ""
     @State private var emailAddress = ""
-    @State private var tipAmount = ""
-    
     @FocusState private var focusedField: Field?
+    
     
     var body: some View {
         VStack {
-            TextField("Name: ", text: $tipAmount)
-                .textFieldStyle(.roundedBorder)
-                .keyboardType(.decimalPad)
-            
-            Button("Submit") {
-                print("Tip: \(tipAmount)")
-            }
             TextField("Enter your first name", text: $firstName)
                 .focused($focusedField, equals: .firstName)
                 .textContentType(.givenName)
@@ -38,11 +32,12 @@ struct DismissKeyboard: View {
                 .textContentType(.familyName)
                 .submitLabel(.next)
             
-            TextField("Enter your email ", text: $emailAddress)
+            TextField("Enter your email address", text: $emailAddress)
                 .focused($focusedField, equals: .emailAddress)
                 .textContentType(.emailAddress)
                 .submitLabel(.join)
         }
+        
         .onSubmit {
             switch focusedField {
             case .firstName:
@@ -50,13 +45,14 @@ struct DismissKeyboard: View {
             case .lastName:
                 focusedField = .emailAddress
             default:
-            print("Creating account..")
+                print("Creating account..")
             }
         }
     }
 }
-struct DismissKeyboard_Previews: PreviewProvider {
+
+struct DismissKeyboardForTextField_Previews: PreviewProvider {
     static var previews: some View {
-        DismissKeyboard()
+        DismissKeyboardForTextField()
     }
 }

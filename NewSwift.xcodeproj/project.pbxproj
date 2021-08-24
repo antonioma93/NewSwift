@@ -21,7 +21,35 @@
 		4D4D841F266FB9EE00E18DEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4D841E266FB9EE00E18DEC /* ContentView.swift */; };
 		4D4D8421266FB9EF00E18DEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D4D8420266FB9EF00E18DEC /* Assets.xcassets */; };
 		4D4D8424266FB9EF00E18DEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D4D8423266FB9EF00E18DEC /* Preview Assets.xcassets */; };
+		4D6D6664268EFC8000B74C6F /* CreateButtonTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D6663268EFC8000B74C6F /* CreateButtonTap.swift */; };
+		4D6D6666268EFF6400B74C6F /* DisableColorImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D6665268EFF6400B74C6F /* DisableColorImageButton.swift */; };
+		4D6D6668268F05FB00B74C6F /* ReadTextFromTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D6667268F05FB00B74C6F /* ReadTextFromTextField.swift */; };
+		4D6D666A268F0B0600B74C6F /* DismissKeyboardForTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D6669268F0B0600B74C6F /* DismissKeyboardForTextField.swift */; };
+		4D6D666C268F14B800B74C6F /* FormatTextFieldForNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D666B268F14B800B74C6F /* FormatTextFieldForNumbers.swift */; };
+		4D6D666E268F177300B74C6F /* SecureFieldText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D666D268F177300B74C6F /* SecureFieldText.swift */; };
+		4D6D6670268F196300B74C6F /* CreateToggleSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D666F268F196300B74C6F /* CreateToggleSwitch.swift */; };
+		4D6D6672268F1B1100B74C6F /* CreateSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D6671268F1B1100B74C6F /* CreateSlider.swift */; };
+		4D6D6674268F1C0700B74C6F /* CreatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D6673268F1C0700B74C6F /* CreatePicker.swift */; };
+		4D6D6676268F1D1200B74C6F /* CreateDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D6675268F1D1200B74C6F /* CreateDatePicker.swift */; };
+		4D6D6678268F1FB700B74C6F /* CreateSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D6677268F1FB700B74C6F /* CreateSegmentControl.swift */; };
+		4D6D667A268F211D00B74C6F /* CreateStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D6679268F211D00B74C6F /* CreateStepper.swift */; };
+		4D6D667C268F22BF00B74C6F /* HiddenLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D667B268F22BF00B74C6F /* HiddenLabel.swift */; };
+		4D6D667E268F240400B74C6F /* CreateColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D667D268F240400B74C6F /* CreateColorPicker.swift */; };
+		4D6D6680268F251000B74C6F /* ShowProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D667F268F251000B74C6F /* ShowProgressView.swift */; };
+		4D7DA11D26A6D80E00769CC1 /* ApplePayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7DA11C26A6D80E00769CC1 /* ApplePayTest.swift */; };
+		4D7DA11F26A6D8B100769CC1 /* ApplePayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7DA11E26A6D8B100769CC1 /* ApplePayManager.swift */; };
 		4D8C7260267A03C2005F8CEB /* SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8C725F267A03C2005F8CEB /* SFSymbol.swift */; };
+		4D901482268C7BEF00A3C28B /* DelayAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D901481268C7BEF00A3C28B /* DelayAnimation.swift */; };
+		4D901484268C7D0800A3C28B /* ImmediatelyStartAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D901483268C7D0800A3C28B /* ImmediatelyStartAnimation.swift */; };
+		4D901486268C80BF00A3C28B /* MultipleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D901485268C80BF00A3C28B /* MultipleAnimation.swift */; };
+		4D901488268C81DE00A3C28B /* SynchronizeAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D901487268C81DE00A3C28B /* SynchronizeAnimations.swift */; };
+		4D90148A268C972300A3C28B /* AddAndRemoveViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D901489268C972300A3C28B /* AddAndRemoveViews.swift */; };
+		4D90148C268C993E00A3C28B /* CombineTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D90148B268C993E00A3C28B /* CombineTransitions.swift */; };
+		4D90148E268C9AA200A3C28B /* AsymmetricTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D90148D268C9AA200A3C28B /* AsymmetricTransitions.swift */; };
+		4D901490268C9B4800A3C28B /* AnimateTextSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D90148F268C9B4800A3C28B /* AnimateTextSize.swift */; };
+		4D901493268CA08A00A3C28B /* CreateCustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D901492268CA08A00A3C28B /* CreateCustomViews.swift */; };
+		4D9014BB268CAB2200A3C28B /* CombineText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9014BA268CAB2200A3C28B /* CombineText.swift */; };
+		4D9014BD268CAC1100A3C28B /* CreateCustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9014BC268CAC1100A3C28B /* CreateCustomModifiers.swift */; };
 		4DA53ED92689FB8000112820 /* Enable&Disable element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA53ED82689FB8000112820 /* Enable&Disable element.swift */; };
 		4DA53EDB2689FC2700112820 /* Show&HideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA53EDA2689FC2700112820 /* Show&HideView.swift */; };
 		4DA53EDE2689FD2100112820 /* ShowAnAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA53EDD2689FD2100112820 /* ShowAnAlert.swift */; };
@@ -40,6 +68,24 @@
 		4DA53EF9268A178800112820 /* ViewDismissItself.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA53EF8268A178800112820 /* ViewDismissItself.swift */; };
 		4DA53EFB268A192300112820 /* FullScreenCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA53EFA268A192300112820 /* FullScreenCover.swift */; };
 		4DA53EFD268A1A4900112820 /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA53EFC268A1A4900112820 /* PopoverView.swift */; };
+		4DA53F00268AEF4000112820 /* PositionOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA53EFF268AEF4000112820 /* PositionOffset.swift */; };
+		4DA53F02268AFA3E00112820 /* ColorPaddingAroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA53F01268AFA3E00112820 /* ColorPaddingAroundView.swift */; };
+		4DA53F04268AFB4300112820 /* AdvancedEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA53F03268AFB4300112820 /* AdvancedEffects.swift */; };
+		4DA53F06268AFBF400112820 /* BorderAroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA53F05268AFBF400112820 /* BorderAroundView.swift */; };
+		4DA53F08268AFD0A00112820 /* BorderInsideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA53F07268AFD0A00112820 /* BorderInsideView.swift */; };
+		4DA53F0A268AFF9000112820 /* ShadowAroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA53F09268AFF9000112820 /* ShadowAroundView.swift */; };
+		4DA53F0C268B013E00112820 /* ClipAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA53F0B268B013E00112820 /* ClipAView.swift */; };
+		4DA53F0E268B040900112820 /* RotateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA53F0D268B040900112820 /* RotateView.swift */; };
+		4DA53F10268B053D00112820 /* RotateView3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA53F0F268B053D00112820 /* RotateView3D.swift */; };
+		4DA53F12268B065E00112820 /* RoundCornersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA53F11268B065E00112820 /* RoundCornersView.swift */; };
+		4DA53F14268B06C900112820 /* ToggleStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA53F13268B06C900112820 /* ToggleStyleView.swift */; };
+		4DA53F17268B0BC000112820 /* BuiltInShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA53F16268B0BC000112820 /* BuiltInShape.swift */; };
+		4DA53F19268B0DF000112820 /* PolygonsAndStars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA53F18268B0DF000112820 /* PolygonsAndStars.swift */; };
+		4DA53F1B268B104000112820 /* ConvertUIViewIntoImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA53F1A268B104000112820 /* ConvertUIViewIntoImage.swift */; };
+		4DA53F1F268B139800112820 /* BasicAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA53F1E268B139800112820 /* BasicAnimation.swift */; };
+		4DA53F21268B153F00112820 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA53F20268B153F00112820 /* SpringAnimation.swift */; };
+		4DA53F23268B16BD00112820 /* AnimateChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA53F22268B16BD00112820 /* AnimateChanges.swift */; };
+		4DA53F25268B1B5F00112820 /* ExplicitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA53F24268B1B5F00112820 /* ExplicitAnimation.swift */; };
 		4DB226742689CF9500ED1F98 /* ListTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB226732689CF9500ED1F98 /* ListTips.swift */; };
 		4DB226762689D4CF00ED1F98 /* ExpandingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB226752689D4CF00ED1F98 /* ExpandingList.swift */; };
 		4DB226792689DCB800ED1F98 /* ImplicitStacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB226782689DCB800ED1F98 /* ImplicitStacking.swift */; };
@@ -54,6 +100,9 @@
 		4DD62B93267096E400C46088 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD62B92267096E400C46088 /* SearchBar.swift */; };
 		4DD62B9526709B2500C46088 /* Forms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD62B9426709B2500C46088 /* Forms.swift */; };
 		4DD62B972670A29F00C46088 /* ImageURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD62B962670A29F00C46088 /* ImageURL.swift */; };
+		4DE615C226D4C4C900593620 /* APITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE615C126D4C4C900593620 /* APITest.swift */; };
+		4DE615C426D4C64300593620 /* CSVformat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE615C326D4C64300593620 /* CSVformat.swift */; };
+		4DE615C626D4CA0D00593620 /* StreamingInData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE615C526D4CA0D00593620 /* StreamingInData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -86,7 +135,35 @@
 		4D4D841E266FB9EE00E18DEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4D4D8420266FB9EF00E18DEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D4D8423266FB9EF00E18DEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D6D6663268EFC8000B74C6F /* CreateButtonTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateButtonTap.swift; sourceTree = "<group>"; };
+		4D6D6665268EFF6400B74C6F /* DisableColorImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisableColorImageButton.swift; sourceTree = "<group>"; };
+		4D6D6667268F05FB00B74C6F /* ReadTextFromTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadTextFromTextField.swift; sourceTree = "<group>"; };
+		4D6D6669268F0B0600B74C6F /* DismissKeyboardForTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissKeyboardForTextField.swift; sourceTree = "<group>"; };
+		4D6D666B268F14B800B74C6F /* FormatTextFieldForNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatTextFieldForNumbers.swift; sourceTree = "<group>"; };
+		4D6D666D268F177300B74C6F /* SecureFieldText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFieldText.swift; sourceTree = "<group>"; };
+		4D6D666F268F196300B74C6F /* CreateToggleSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateToggleSwitch.swift; sourceTree = "<group>"; };
+		4D6D6671268F1B1100B74C6F /* CreateSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSlider.swift; sourceTree = "<group>"; };
+		4D6D6673268F1C0700B74C6F /* CreatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePicker.swift; sourceTree = "<group>"; };
+		4D6D6675268F1D1200B74C6F /* CreateDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDatePicker.swift; sourceTree = "<group>"; };
+		4D6D6677268F1FB700B74C6F /* CreateSegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSegmentControl.swift; sourceTree = "<group>"; };
+		4D6D6679268F211D00B74C6F /* CreateStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateStepper.swift; sourceTree = "<group>"; };
+		4D6D667B268F22BF00B74C6F /* HiddenLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenLabel.swift; sourceTree = "<group>"; };
+		4D6D667D268F240400B74C6F /* CreateColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateColorPicker.swift; sourceTree = "<group>"; };
+		4D6D667F268F251000B74C6F /* ShowProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowProgressView.swift; sourceTree = "<group>"; };
+		4D7DA11C26A6D80E00769CC1 /* ApplePayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePayTest.swift; sourceTree = "<group>"; };
+		4D7DA11E26A6D8B100769CC1 /* ApplePayManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePayManager.swift; sourceTree = "<group>"; };
 		4D8C725F267A03C2005F8CEB /* SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbol.swift; sourceTree = "<group>"; };
+		4D901481268C7BEF00A3C28B /* DelayAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayAnimation.swift; sourceTree = "<group>"; };
+		4D901483268C7D0800A3C28B /* ImmediatelyStartAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmediatelyStartAnimation.swift; sourceTree = "<group>"; };
+		4D901485268C80BF00A3C28B /* MultipleAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleAnimation.swift; sourceTree = "<group>"; };
+		4D901487268C81DE00A3C28B /* SynchronizeAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynchronizeAnimations.swift; sourceTree = "<group>"; };
+		4D901489268C972300A3C28B /* AddAndRemoveViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAndRemoveViews.swift; sourceTree = "<group>"; };
+		4D90148B268C993E00A3C28B /* CombineTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineTransitions.swift; sourceTree = "<group>"; };
+		4D90148D268C9AA200A3C28B /* AsymmetricTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsymmetricTransitions.swift; sourceTree = "<group>"; };
+		4D90148F268C9B4800A3C28B /* AnimateTextSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateTextSize.swift; sourceTree = "<group>"; };
+		4D901492268CA08A00A3C28B /* CreateCustomViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCustomViews.swift; sourceTree = "<group>"; };
+		4D9014BA268CAB2200A3C28B /* CombineText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineText.swift; sourceTree = "<group>"; };
+		4D9014BC268CAC1100A3C28B /* CreateCustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCustomModifiers.swift; sourceTree = "<group>"; };
 		4DA53ED82689FB8000112820 /* Enable&Disable element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Enable&Disable element.swift"; sourceTree = "<group>"; };
 		4DA53EDA2689FC2700112820 /* Show&HideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Show&HideView.swift"; sourceTree = "<group>"; };
 		4DA53EDD2689FD2100112820 /* ShowAnAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAnAlert.swift; sourceTree = "<group>"; };
@@ -105,6 +182,25 @@
 		4DA53EF8268A178800112820 /* ViewDismissItself.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDismissItself.swift; sourceTree = "<group>"; };
 		4DA53EFA268A192300112820 /* FullScreenCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCover.swift; sourceTree = "<group>"; };
 		4DA53EFC268A1A4900112820 /* PopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
+		4DA53EFF268AEF4000112820 /* PositionOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionOffset.swift; sourceTree = "<group>"; };
+		4DA53F01268AFA3E00112820 /* ColorPaddingAroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPaddingAroundView.swift; sourceTree = "<group>"; };
+		4DA53F03268AFB4300112820 /* AdvancedEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedEffects.swift; sourceTree = "<group>"; };
+		4DA53F05268AFBF400112820 /* BorderAroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderAroundView.swift; sourceTree = "<group>"; };
+		4DA53F07268AFD0A00112820 /* BorderInsideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderInsideView.swift; sourceTree = "<group>"; };
+		4DA53F09268AFF9000112820 /* ShadowAroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowAroundView.swift; sourceTree = "<group>"; };
+		4DA53F0B268B013E00112820 /* ClipAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipAView.swift; sourceTree = "<group>"; };
+		4DA53F0D268B040900112820 /* RotateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateView.swift; sourceTree = "<group>"; };
+		4DA53F0F268B053D00112820 /* RotateView3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateView3D.swift; sourceTree = "<group>"; };
+		4DA53F11268B065E00112820 /* RoundCornersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundCornersView.swift; sourceTree = "<group>"; };
+		4DA53F13268B06C900112820 /* ToggleStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleStyleView.swift; sourceTree = "<group>"; };
+		4DA53F16268B0BC000112820 /* BuiltInShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuiltInShape.swift; sourceTree = "<group>"; };
+		4DA53F18268B0DF000112820 /* PolygonsAndStars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolygonsAndStars.swift; sourceTree = "<group>"; };
+		4DA53F1A268B104000112820 /* ConvertUIViewIntoImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertUIViewIntoImage.swift; sourceTree = "<group>"; };
+		4DA53F1C268B127200112820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4DA53F1E268B139800112820 /* BasicAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimation.swift; sourceTree = "<group>"; };
+		4DA53F20268B153F00112820 /* SpringAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
+		4DA53F22268B16BD00112820 /* AnimateChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateChanges.swift; sourceTree = "<group>"; };
+		4DA53F24268B1B5F00112820 /* ExplicitAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimation.swift; sourceTree = "<group>"; };
 		4DB226732689CF9500ED1F98 /* ListTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTips.swift; sourceTree = "<group>"; };
 		4DB226752689D4CF00ED1F98 /* ExpandingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingList.swift; sourceTree = "<group>"; };
 		4DB226782689DCB800ED1F98 /* ImplicitStacking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitStacking.swift; sourceTree = "<group>"; };
@@ -119,6 +215,9 @@
 		4DD62B92267096E400C46088 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		4DD62B9426709B2500C46088 /* Forms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forms.swift; sourceTree = "<group>"; };
 		4DD62B962670A29F00C46088 /* ImageURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageURL.swift; sourceTree = "<group>"; };
+		4DE615C126D4C4C900593620 /* APITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITest.swift; sourceTree = "<group>"; };
+		4DE615C326D4C64300593620 /* CSVformat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVformat.swift; sourceTree = "<group>"; };
+		4DE615C526D4CA0D00593620 /* StreamingInData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamingInData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +237,16 @@
 				4D4373B3268604BF0074D54C /* SwiftUI.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D43EAF326D38E35006782FE /* URLLines */ = {
+			isa = PBXGroup;
+			children = (
+				4DE615C126D4C4C900593620 /* APITest.swift */,
+				4DE615C326D4C64300593620 /* CSVformat.swift */,
+				4DE615C526D4CA0D00593620 /* StreamingInData.swift */,
+			);
+			path = URLLines;
 			sourceTree = "<group>";
 		};
 		4D4D8410266FB9EE00E18DEC = {
@@ -160,6 +269,9 @@
 		4D4D841B266FB9EE00E18DEC /* NewSwift */ = {
 			isa = PBXGroup;
 			children = (
+				4D43EAF326D38E35006782FE /* URLLines */,
+				4D7DA11B26A6D7FC00769CC1 /* ApplePay */,
+				4DA53F1C268B127200112820 /* Info.plist */,
 				4D4D841C266FB9EE00E18DEC /* NewSwiftApp.swift */,
 				4DA53EEB268A0C9900112820 /* PresentingViews */,
 				4DA53EDC2689FD0A00112820 /* Alerts&Menu */,
@@ -171,7 +283,11 @@
 				4DB2267C2689DE2B00ED1F98 /* NewSheetView */,
 				4DB2267D2689DE5800ED1F98 /* ButtonsStyleView */,
 				4DA53EFE268A1B7900112820 /* TrasformingViews */,
+				4D6D6662268EFC3E00B74C6F /* UserInterfaceControls */,
+				4DA53F15268B0BA400112820 /* Drawing */,
 				4DB226772689DC9A00ED1F98 /* List Tips */,
+				4D901491268CA03E00A3C28B /* ComposingView */,
+				4DA53F1D268B137500112820 /* Animations */,
 				4D4D8420266FB9EF00E18DEC /* Assets.xcassets */,
 				4D4D8422266FB9EF00E18DEC /* Preview Content */,
 			);
@@ -184,6 +300,47 @@
 				4D4D8423266FB9EF00E18DEC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4D6D6662268EFC3E00B74C6F /* UserInterfaceControls */ = {
+			isa = PBXGroup;
+			children = (
+				4D6D6663268EFC8000B74C6F /* CreateButtonTap.swift */,
+				4D6D6671268F1B1100B74C6F /* CreateSlider.swift */,
+				4D6D6673268F1C0700B74C6F /* CreatePicker.swift */,
+				4D6D6675268F1D1200B74C6F /* CreateDatePicker.swift */,
+				4D6D6679268F211D00B74C6F /* CreateStepper.swift */,
+				4D6D6677268F1FB700B74C6F /* CreateSegmentControl.swift */,
+				4D6D667B268F22BF00B74C6F /* HiddenLabel.swift */,
+				4D6D667D268F240400B74C6F /* CreateColorPicker.swift */,
+				4D6D667F268F251000B74C6F /* ShowProgressView.swift */,
+				4D6D6667268F05FB00B74C6F /* ReadTextFromTextField.swift */,
+				4D6D666B268F14B800B74C6F /* FormatTextFieldForNumbers.swift */,
+				4D6D6665268EFF6400B74C6F /* DisableColorImageButton.swift */,
+				4D6D666D268F177300B74C6F /* SecureFieldText.swift */,
+				4D6D666F268F196300B74C6F /* CreateToggleSwitch.swift */,
+				4D6D6669268F0B0600B74C6F /* DismissKeyboardForTextField.swift */,
+			);
+			path = UserInterfaceControls;
+			sourceTree = "<group>";
+		};
+		4D7DA11B26A6D7FC00769CC1 /* ApplePay */ = {
+			isa = PBXGroup;
+			children = (
+				4D7DA11C26A6D80E00769CC1 /* ApplePayTest.swift */,
+				4D7DA11E26A6D8B100769CC1 /* ApplePayManager.swift */,
+			);
+			path = ApplePay;
+			sourceTree = "<group>";
+		};
+		4D901491268CA03E00A3C28B /* ComposingView */ = {
+			isa = PBXGroup;
+			children = (
+				4D901492268CA08A00A3C28B /* CreateCustomViews.swift */,
+				4D9014BA268CAB2200A3C28B /* CombineText.swift */,
+				4D9014BC268CAC1100A3C28B /* CreateCustomModifiers.swift */,
+			);
+			path = ComposingView;
 			sourceTree = "<group>";
 		};
 		4DA53EDC2689FD0A00112820 /* Alerts&Menu */ = {
@@ -219,8 +376,48 @@
 		4DA53EFE268A1B7900112820 /* TrasformingViews */ = {
 			isa = PBXGroup;
 			children = (
+				4DA53EFF268AEF4000112820 /* PositionOffset.swift */,
+				4DA53F01268AFA3E00112820 /* ColorPaddingAroundView.swift */,
+				4DA53F03268AFB4300112820 /* AdvancedEffects.swift */,
+				4DA53F05268AFBF400112820 /* BorderAroundView.swift */,
+				4DA53F07268AFD0A00112820 /* BorderInsideView.swift */,
+				4DA53F09268AFF9000112820 /* ShadowAroundView.swift */,
+				4DA53F0B268B013E00112820 /* ClipAView.swift */,
+				4DA53F0D268B040900112820 /* RotateView.swift */,
+				4DA53F0F268B053D00112820 /* RotateView3D.swift */,
+				4DA53F11268B065E00112820 /* RoundCornersView.swift */,
+				4DA53F13268B06C900112820 /* ToggleStyleView.swift */,
 			);
 			path = TrasformingViews;
+			sourceTree = "<group>";
+		};
+		4DA53F15268B0BA400112820 /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				4DA53F16268B0BC000112820 /* BuiltInShape.swift */,
+				4DA53F18268B0DF000112820 /* PolygonsAndStars.swift */,
+				4DA53F1A268B104000112820 /* ConvertUIViewIntoImage.swift */,
+			);
+			path = Drawing;
+			sourceTree = "<group>";
+		};
+		4DA53F1D268B137500112820 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				4DA53F1E268B139800112820 /* BasicAnimation.swift */,
+				4DA53F20268B153F00112820 /* SpringAnimation.swift */,
+				4DA53F22268B16BD00112820 /* AnimateChanges.swift */,
+				4D901483268C7D0800A3C28B /* ImmediatelyStartAnimation.swift */,
+				4D901485268C80BF00A3C28B /* MultipleAnimation.swift */,
+				4D901487268C81DE00A3C28B /* SynchronizeAnimations.swift */,
+				4D901489268C972300A3C28B /* AddAndRemoveViews.swift */,
+				4D90148B268C993E00A3C28B /* CombineTransitions.swift */,
+				4D90148D268C9AA200A3C28B /* AsymmetricTransitions.swift */,
+				4D90148F268C9B4800A3C28B /* AnimateTextSize.swift */,
+				4DA53F24268B1B5F00112820 /* ExplicitAnimation.swift */,
+				4D901481268C7BEF00A3C28B /* DelayAnimation.swift */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 		4DB226772689DC9A00ED1F98 /* List Tips */ = {
@@ -379,50 +576,99 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DA53EFB268A192300112820 /* FullScreenCover.swift in Sources */,
+				4DA53F21268B153F00112820 /* SpringAnimation.swift in Sources */,
 				4DA53EE8268A07EA00112820 /* ShowMenuPressButton.swift in Sources */,
 				4DB226872689F64400ED1F98 /* HoveringOverAView.swift in Sources */,
 				4DB226742689CF9500ED1F98 /* ListTips.swift in Sources */,
+				4DA53F25268B1B5F00112820 /* ExplicitAnimation.swift in Sources */,
+				4D90148A268C972300A3C28B /* AddAndRemoveViews.swift in Sources */,
+				4D9014BD268CAC1100A3C28B /* CreateCustomModifiers.swift in Sources */,
+				4DA53F10268B053D00112820 /* RotateView3D.swift in Sources */,
+				4D901484268C7D0800A3C28B /* ImmediatelyStartAnimation.swift in Sources */,
 				4DB2268C2689F8CA00ED1F98 /* PickersInForms.swift in Sources */,
+				4D90148E268C9AA200A3C28B /* AsymmetricTransitions.swift in Sources */,
 				4DA53EE4268A030500112820 /* ActionSheet.swift in Sources */,
+				4DA53F0C268B013E00112820 /* ClipAView.swift in Sources */,
 				4D4D841F266FB9EE00E18DEC /* ContentView.swift in Sources */,
 				4DD62B9526709B2500C46088 /* Forms.swift in Sources */,
+				4D901490268C9B4800A3C28B /* AnimateTextSize.swift in Sources */,
 				4DB226832689F2C400ED1F98 /* Tap&DoubleTap gesture.swift in Sources */,
 				4DA53EF5268A161900112820 /* PresentNewView.swift in Sources */,
+				4D9014BB268CAB2200A3C28B /* CombineText.swift in Sources */,
 				4D122AF42670B07000F43D9B /* AdjustListRow.swift in Sources */,
 				4DD62B93267096E400C46088 /* SearchBar.swift in Sources */,
+				4D6D6674268F1C0700B74C6F /* CreatePicker.swift in Sources */,
+				4D6D6672268F1B1100B74C6F /* CreateSlider.swift in Sources */,
 				4D8C7260267A03C2005F8CEB /* SFSymbol.swift in Sources */,
 				4DA53EEA268A0B0100112820 /* PickOptionFromMenu.swift in Sources */,
 				4DA53EF7268A164D00112820 /* SheetViewTest.swift in Sources */,
+				4DA53F1F268B139800112820 /* BasicAnimation.swift in Sources */,
 				4D4373A82685E8930074D54C /* ButtonStyle.swift in Sources */,
+				4D6D666A268F0B0600B74C6F /* DismissKeyboardForTextField.swift in Sources */,
 				4D4373AA268604210074D54C /* SplittingLargeView.swift in Sources */,
+				4DE615C226D4C4C900593620 /* APITest.swift in Sources */,
 				4DA53EF1268A13C600112820 /* ProgrammaticNavigation.swift in Sources */,
+				4D6D6670268F196300B74C6F /* CreateToggleSwitch.swift in Sources */,
+				4DE615C626D4CA0D00593620 /* StreamingInData.swift in Sources */,
+				4D6D6668268F05FB00B74C6F /* ReadTextFromTextField.swift in Sources */,
+				4D6D6680268F251000B74C6F /* ShowProgressView.swift in Sources */,
 				4DB226812689E1B900ED1F98 /* GestureRecognizer.swift in Sources */,
+				4D90148C268C993E00A3C28B /* CombineTransitions.swift in Sources */,
+				4DA53F02268AFA3E00112820 /* ColorPaddingAroundView.swift in Sources */,
 				4DC3CE242685A8E4000EFF16 /* RespondingToEvents.swift in Sources */,
 				4DA53EE0268A008F00112820 /* AddActionToAnAlert.swift in Sources */,
+				4DA53F0E268B040900112820 /* RotateView.swift in Sources */,
+				4DA53F0A268AFF9000112820 /* ShadowAroundView.swift in Sources */,
+				4D6D667A268F211D00B74C6F /* CreateStepper.swift in Sources */,
+				4DE615C426D4C64300593620 /* CSVformat.swift in Sources */,
 				4DA53EFD268A1A4900112820 /* PopoverView.swift in Sources */,
 				4D122AF02670A80200F43D9B /* Blurs effect.swift in Sources */,
+				4D6D667C268F22BF00B74C6F /* HiddenLabel.swift in Sources */,
+				4D6D6664268EFC8000B74C6F /* CreateButtonTap.swift in Sources */,
 				4DD62B972670A29F00C46088 /* ImageURL.swift in Sources */,
 				4DA53EF3268A14DA00112820 /* MultipleDestination.swift in Sources */,
 				4DA53EEF268A0DC500112820 /* ViewWhenRowTapped.swift in Sources */,
+				4D6D6678268F1FB700B74C6F /* CreateSegmentControl.swift in Sources */,
+				4D6D6666268EFF6400B74C6F /* DisableColorImageButton.swift in Sources */,
 				4DA53EDE2689FD2100112820 /* ShowAnAlert.swift in Sources */,
+				4D901486268C80BF00A3C28B /* MultipleAnimation.swift in Sources */,
+				4DA53F08268AFD0A00112820 /* BorderInsideView.swift in Sources */,
 				4D122AFA2670B4FB00F43D9B /* PreventSheet.swift in Sources */,
+				4DA53F19268B0DF000112820 /* PolygonsAndStars.swift in Sources */,
+				4DA53F1B268B104000112820 /* ConvertUIViewIntoImage.swift in Sources */,
 				4DA53EDB2689FC2700112820 /* Show&HideView.swift in Sources */,
 				4DA53EE6268A05A000112820 /* ContextMenu.swift in Sources */,
 				4D122B022670C3F500F43D9B /* CustomizeSubmitButton.swift in Sources */,
 				4D122AF62670B1E900F43D9B /* Markdown.swift in Sources */,
+				4D6D666E268F177300B74C6F /* SecureFieldText.swift in Sources */,
 				4D122AFE2670BBFC00F43D9B /* SubmitTextField.swift in Sources */,
+				4DA53F23268B16BD00112820 /* AnimateChanges.swift in Sources */,
 				4D122AF82670B31500F43D9B /* AddBadge.swift in Sources */,
+				4D901488268C81DE00A3C28B /* SynchronizeAnimations.swift in Sources */,
 				4DB2268A2689F7BF00ED1F98 /* WorkingWithForms.swift in Sources */,
 				4DB226852689F3A600ED1F98 /* ForceOneGesture.swift in Sources */,
+				4DA53F12268B065E00112820 /* RoundCornersView.swift in Sources */,
 				4D122AF22670A97100F43D9B /* DismissKeyboard.swift in Sources */,
+				4DA53F04268AFB4300112820 /* AdvancedEffects.swift in Sources */,
+				4DA53F00268AEF4000112820 /* PositionOffset.swift in Sources */,
+				4D6D6676268F1D1200B74C6F /* CreateDatePicker.swift in Sources */,
+				4D7DA11F26A6D8B100769CC1 /* ApplePayManager.swift in Sources */,
 				4D4D841D266FB9EE00E18DEC /* NewSwiftApp.swift in Sources */,
+				4DA53F14268B06C900112820 /* ToggleStyleView.swift in Sources */,
 				4DA53ED92689FB8000112820 /* Enable&Disable element.swift in Sources */,
 				4DB226792689DCB800ED1F98 /* ImplicitStacking.swift in Sources */,
 				4DA53EED268A0CCF00112820 /* ViewInNavigationView.swift in Sources */,
 				4DB226762689D4CF00ED1F98 /* ExpandingList.swift in Sources */,
 				4DA53EE2268A01E300112820 /* MultipleAlerts.swift in Sources */,
 				4DD62B912670905600C46088 /* SwipeActions.swift in Sources */,
+				4D6D667E268F240400B74C6F /* CreateColorPicker.swift in Sources */,
+				4DA53F17268B0BC000112820 /* BuiltInShape.swift in Sources */,
 				4DA53EF9268A178800112820 /* ViewDismissItself.swift in Sources */,
+				4D901493268CA08A00A3C28B /* CreateCustomViews.swift in Sources */,
+				4D6D666C268F14B800B74C6F /* FormatTextFieldForNumbers.swift in Sources */,
+				4D7DA11D26A6D80E00769CC1 /* ApplePayTest.swift in Sources */,
+				4D901482268C7BEF00A3C28B /* DelayAnimation.swift in Sources */,
+				4DA53F06268AFBF400112820 /* BorderAroundView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,6 +802,10 @@
 				DEVELOPMENT_TEAM = UN3FPQY5P8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NewSwift/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = NewSwift;
+				INFOPLIST_KEY_CFBundleName = NewSwift;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -586,6 +836,10 @@
 				DEVELOPMENT_TEAM = UN3FPQY5P8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NewSwift/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = NewSwift;
+				INFOPLIST_KEY_CFBundleName = NewSwift;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

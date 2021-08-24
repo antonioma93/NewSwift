@@ -13,7 +13,7 @@ struct Enable_Disable_element: View {
     var body: some View {
         Form {
             Section {
-                Toggle("Agree to terms and conditions", isOn: $agreedToTerms)
+                
             }
             
             Section {
